@@ -1,0 +1,168 @@
+* {
+  font-family: Helvetica;
+}
+
+i {
+  font-size: 30px;
+}
+
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: #f1f3ff;
+}
+.navbar-logo {
+  width: 85px;
+  height: 30px;
+  background-color: #0d28a6;
+}
+
+.footer-cpy .footer-logo {
+  width: 85px;
+  height: 30px;
+  background-color: #0d28a6;
+}
+
+/* HERO */
+.hero-section {
+  background-color: #f1f3ff;
+  padding-top: 5rem;
+}
+
+/* SERVICES */
+.services-section {
+  margin-top: 6rem;
+}
+
+/* WHY US */
+.whyus-section {
+  margin-top: 9rem;
+}
+
+/* TESTIMONIAL */
+.testimonial-section {
+  margin-top: 9rem;
+}
+
+.owl-prev {
+  border: 1px solid rgba(0, 0, 0, 0.4) !important;
+  background-color: transparent !important;
+  border-radius: 50% !important;
+  padding: 5px !important;
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+  transition: 0.4s;
+  overflow: hidden;
+}
+
+.owl-next {
+  border: 1px solid transparent !important;
+  background-color: #5cb85f !important;
+  border-radius: 50% !important;
+  padding: 5px !important;
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+  transition: 0.4s;
+  overflow: hidden;
+}
+
+.owl-prev:hover,
+.owl-next:hover {
+  transform: scale(1.1);
+}
+
+.testimonial-section .cards {
+  background-color: #f1f3ff;
+  padding: 5rem 0;
+}
+
+/* CTA BANNER */
+.cta-section {
+  margin-top: 7rem;
+}
+
+.cta-section .cta-content {
+  background-color: #0d28a6;
+}
+
+.cta-section .cta-content .card-body p {
+  max-width: 600px;
+}
+
+/* FAQ */
+.faq-section {
+  margin-top: 5rem;
+}
+
+/* FOOTER */
+.footer-section {
+  margin-top: 6rem;
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+  .navbar .navbar-logo {
+    width: 98px;
+    height: 38px;
+  }
+
+  /* HERO MOBILE */
+
+  .hero-section .hero-content .hero-text h2 {
+    font-size: 50px;
+  }
+
+  /* SERVICES MOBILE */
+  .services-section {
+    margin-top: 8rem;
+  }
+
+  /* .services-section .service-content .service-img img {
+    width: 359px;
+    height: 328px;
+  } */
+
+  /* WHY US MOBILE */
+  .whyus-section {
+    margin-top: 5rem;
+  }
+
+  /* TESTIMONIAL MOBILE */
+  .testimonial-section {
+    margin-top: 5rem;
+  }
+
+  /* CTA BANNER MOBILE */
+  .cta-section {
+    margin-top: 4rem;
+  }
+  .cta-section .cta-content {
+    padding: 7rem 5rem;
+  }
+
+  .cta-section .cta-content .card-body h1 {
+    line-height: 1.5;
+  }
+
+  /* FAQ MOBILE */
+  .faq-section {
+    margin-top: 5rem;
+  }
+
+  .faq-section .ab-faq {
+    font-size: 13px;
+  }
+
+  .faq-section .faq-content .faq-header p {
+    font-size: 12px;
+  }
+
+  /* FOOTER MOBILE */
+  .footer-section {
+    margin-top: 3rem;
+  }
+}
